@@ -3,7 +3,7 @@ import email
 
 # Configuration
 EMAIL_ADDRESS = 'bryanjorge417@gmail.com'  # Your Email Address
-EMAIL_PASSWORD = 'Not My pass'     # Your Gmail App Password
+EMAIL_PASSWORD = 'Not My pass'             # Your Email Password/App Password
 IMAP_SERVER = 'imap.gmail.com'             #imap for your email provider
 
 def connect_to_email():
