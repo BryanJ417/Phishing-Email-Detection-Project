@@ -40,8 +40,8 @@ Setup Instructions
 2. Install Required Packages:
 
 	bash
-    	pip install requests
-
+    	python -m pip install requests
+		python.exe -m pip install --upgrade pip
 
 4. Configure Email and VirusTotal API:
 
