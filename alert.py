@@ -5,7 +5,7 @@ def send_alert_email(subject, message):
     smtp_server = smtp.gmail.com  # Replace with your SMTP server
     smtp_port = 587
     alert_email =   # Replace with sender email
-    alert_password =   # Replace with sender password
+    alert_password =   # Replace with sender password/app password
 
     msg = MIMEText(message)
     msg['Subject'] = subject
